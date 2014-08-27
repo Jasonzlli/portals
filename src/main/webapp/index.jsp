@@ -108,8 +108,8 @@
         <div class="main container">
         		<div class="banner">
         			<ul>
-        				<li style="background-image:url(../../static/images/shows/show01.jpg);background-size:100% 100%;height:292px;"></li>
-        				<li style="background-image:url(../../static/images/shows/show02.jpg);background-size:100% 100%;height:292px;"></li>
+        				<li style="background-image:url(<%=request.getContextPath()%>/static/images/shows/show01.jpg);background-size:100% 100%;height:292px;"></li>
+        				<li style="background-image:url(<%=request.getContextPath()%>/static/images/shows/show02.jpg);background-size:100% 100%;height:292px;"></li>
         			</ul>
         		</div>
             <div class="intro row">
