@@ -29,5 +29,17 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="lib/freemarker.jar"/>
+	<classpathentry kind="lib" path="lib/javamail.jar"/>
+	<classpathentry kind="lib" path="lib/javassist.jar"/>
+	<classpathentry kind="lib" path="lib/ognl.jar"/>
+	<classpathentry kind="lib" path="lib/oscore.jar"/>
+	<classpathentry kind="lib" path="lib/rife-continuations.jar"/>
+	<classpathentry kind="lib" path="lib/webwork-2.2.7.jar"/>
+	<classpathentry kind="lib" path="lib/webwork-src-2.2.7.jar"/>
+	<classpathentry kind="lib" path="lib/xwork-src.jar"/>
+	<classpathentry kind="lib" path="lib/xwork-tiger.jar"/>
+	<classpathentry kind="lib" path="lib/xwork.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

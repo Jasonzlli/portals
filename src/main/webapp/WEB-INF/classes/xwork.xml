@@ -1,0 +1,20 @@
+<!DOCTYPE xwork PUBLIC "-//OpenSymphony Group//XWork 1.1.1//EN" "http://www.opensymphony.com/xwork/xwork-1.1.1.dtd">
+
+<xwork>
+    <include file="webwork-default.xml"/>
+
+    <package name="default" extends="webwork-default">
+
+        <default-action-ref name="home" />
+		
+		<action name="home" class="cando.module.portal.recruitment.action.HomeAction">
+            <result>/WEB-INF/pages/home/home.html</result>
+        </action>
+
+        <action name="recruitment" class="cando.module.portal.recruitment.action.RecruitmentAction">
+            <result>/WEB-INF/pages/recruitment/recruitment.html</result>
+        </action>
+
+        <!-- Add your actions here -->
+    </package>
+</xwork>
