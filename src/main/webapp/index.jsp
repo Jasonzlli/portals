@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <title>
-	河南坤德企业管理
+	河南坤德企业管理咨询有限公司
 </title>
 	<link href="static/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" >
 	<link href="static/bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" >
@@ -121,7 +121,7 @@
                     <p class="red" style="display: block; margin-top: 2px; text-indent: 2em;">
                         河南坤德企业管理咨询有限公司是以企业咨询培训、职业指导、劳务派遣、校企合作、业务承包等服务。公司秉承“诚信、专业、共赢”的经营理念,坚持客户至上、诚信第一，以亲情服务客户，坚持科学发展、不断创新、不断超越。</p>
                     <div class="more" style="margin-top: -5px;">
-                        <a href="#">+More</a></div>
+                    <a onclick="" href="#">+More</a></div>
                 </div>
                 <div class="col-md-5">
                     <div class="bs-callout bs-callout-danger">
