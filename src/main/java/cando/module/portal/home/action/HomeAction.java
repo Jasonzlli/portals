@@ -12,6 +12,8 @@ import com.opensymphony.xwork.ActionSupport;
  */
 public class HomeAction extends ActionSupport {
 
+	private String home;
+	
 	/**
 	 * serialVersionUID
 	 */
@@ -20,7 +22,16 @@ public class HomeAction extends ActionSupport {
 	@Override
 	public String execute() throws Exception {
 		// TODO 首页
+		home = "Home";
 		return SUCCESS;
+	}
+
+	public String getHome() {
+		return home;
+	}
+
+	public void setHome(String home) {
+		this.home = home;
 	}
 
 }
