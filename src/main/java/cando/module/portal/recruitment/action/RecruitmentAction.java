@@ -1,21 +1,15 @@
 package cando.module.portal.recruitment.action;
 
-import com.opensymphony.xwork.ActionSupport;
+import com.opensymphony.xwork.Action;
 
 /**
  * <code>RecruitmentAction</code>
  * @author lizl
  *
  */
-public class RecruitmentAction extends ActionSupport {
+public class RecruitmentAction implements Action {
 
-	/**
-	 * serialVersionUID
-	 */
-	private static final long serialVersionUID = 6466537095698154373L;
-	
-	@Override
-	public String execute() throws Exception {
+	public String execute() {
 		// TODO 招聘信息页面
 		return SUCCESS;
 	}

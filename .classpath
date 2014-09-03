@@ -29,17 +29,25 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="lib/commons-logging.jar"/>
-	<classpathentry kind="lib" path="lib/freemarker.jar"/>
-	<classpathentry kind="lib" path="lib/javamail.jar"/>
-	<classpathentry kind="lib" path="lib/javassist.jar"/>
-	<classpathentry kind="lib" path="lib/ognl.jar"/>
-	<classpathentry kind="lib" path="lib/oscore.jar"/>
-	<classpathentry kind="lib" path="lib/rife-continuations.jar"/>
-	<classpathentry kind="lib" path="lib/webwork-2.2.7.jar"/>
-	<classpathentry kind="lib" path="lib/webwork-src-2.2.7.jar"/>
-	<classpathentry kind="lib" path="lib/xwork-src.jar"/>
-	<classpathentry kind="lib" path="lib/xwork-tiger.jar"/>
-	<classpathentry kind="lib" path="lib/xwork.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/webwork-2.2.7.jar" sourcepath="src/main/webapp/WEB-INF/lib/webwork-src-2.2.7.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/webwork-src-2.2.7.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/xwork-src.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/xwork.jar" sourcepath="src/main/webapp/WEB-INF/lib/xwork-src.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/cglib-nodep.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-attributes-api.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/freemarker.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/javamail.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/javassist.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/ognl.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/oscore.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/rife-continuations.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/spring-aop.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/spring-beans.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/spring-context.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/spring-core.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/spring-mock.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/spring-web.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/xwork-tiger.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

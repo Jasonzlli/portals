@@ -24,16 +24,16 @@
 	  <filter-name>sitemesh</filter-name>
 	  <url-pattern>/*</url-pattern>
 	</filter-mapping>
+
   <!-- ============filter-list================================================== -->
-  <!-- ============listener-list================================================== -->
+  
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
-  <!-- ============listener-list================================================== -->
   <!-- ============servlet================================================== -->
   <servlet>
 	<servlet-name>webwork</servlet-name>
-	<servlet-class>cando.base.servlet.DispatcherServlet</servlet-class>
+	<servlet-class>com.opensymphony.webwork.dispatcher.ServletDispatcher</servlet-class>
   </servlet>
   <servlet-mapping>
 	<servlet-name>webwork</servlet-name>
