@@ -3,17 +3,15 @@
 <xwork>
     <include file="webwork-default.xml"/>
 
-    <package name="default" namespace="/home">
+    <package name="default" extends="webwork-default" namespace="/home">
 
         <default-action-ref name="home" />
         
         <action name="hello" class="cando.hello.HelloAction">
-        	<result name="success" type="dispatcher">
-				<param name="location">/hello.html</param>
-			</result>
+        	<result>/hello.html</result>
         </action>
 		
-		<action name="home" class="cando.module.portal.recruitment.action.HomeAction">
+		<action name="home" class="cando.module.portal.home.action.HomeAction">
             <result>/WEB-INF/pages/home/home.html</result>
         </action>
 
